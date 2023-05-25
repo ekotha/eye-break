@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Break Reminder Extension",
+  "version": "1.0",
+  "description": "Reminds you to take a break every 20 minutes",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["alarms"]
+}
